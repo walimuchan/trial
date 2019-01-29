@@ -2,6 +2,6 @@ from flask import flask
 
 lexus = Flask(__name__)
 
-@app.route('/')
+@lexus.route('/')
 def home():
     return('hello')
